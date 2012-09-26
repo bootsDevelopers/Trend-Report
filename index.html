@@ -1,0 +1,376 @@
+<link href="http://www.boots.com/wcsstore/cmsassets/Boots/Library/Assets/Other/font_face_2012/font_face.css/font_face.css" rel="stylesheet" type="text/css" />
+<style type="text/css">/* ---------------------------- *\	Typographical Styling\* ---------------------------- */	@font-face {	font-family: Vag;	src: url('/wcsstore/cmsassets/Boots/Library/Assets/Other/font_face_2012/vagroundedstdbold-webfont.ttf/vagroundedstdbold-webfont.ttf'),		url('/wcsstore/cmsassets/Boots/Library/Assets/Other/font_face_2012/vagroundedstdbold-webfont.eot/vagroundedstdbold-webfont.eot'); /* IE9+ */	}	h2, h3, #styleOver th {		font-family: 'Vag', Arial, Helvetica, sans-serif;	color: #fff;}	#styleOver #accordion .holder .title h3 {		color: #c75d20;		font-weight: bold;		font-size:1em;		padding-bottom: 0;	}	#styleOver #accordion .holder.active .title h3 {		color: white;	}	div.contentHTML h2 {		margin: 25px 0 15px 0;		color: #333;	}	#styleOver h3 {		font-size:1.5em;		padding-bottom:10px;	}	#styleOver p, #styleOver ul, #styleOver ol{		font-size: 1.3em;		padding-bottom: 25px;		color: #011567;		line-height:1.5em;	}	.contentHTML .read-these h2 {		color:white;	}	#bookmarkingHeader h2 {		width:500px;	}/* --------------------------- *\		Accordion Styling\* --------------------------- */	.holder {		border-top: 2px solid #cccccc;	}	div.holder.active {		border-radius: 5px 5px 0 0;		overflow:hidden;	}	.holder .title {		background: #ECECEC;		padding: 6px;	}	.holder .text {		background: white;		padding:10px 5px;	}	div.text {		display:none;	}	#accordion {		border: 2px solid #cccccc;		background: #cccccc;		border-top:none;		clear:both;	}	#styleOver #accordion p, #styleOver ul {		width:auto;	}	#styleOver ul, #styleOver ol {		margin-left:25px;	}	#styleOver ul li {		list-style: inside disc;		color: #033789;	}	#styleOver #accordion ol li {		list-style: outside decimal;		margin: 0 20px;	}	#styleOver #accordion ol ul li {		font-size: 0.7em;		list-style: outside disc;		padding: 5px 0;	}	/* Arrow style */	#accordion .arrow {		display:block;		float:right;		height:20px;		width:20px;		background: url('/wcsstore/cmsassets/Boots/Library/Icon/Content%20/Health/000_2012/08_AUG/Lets%20Feel%20Good%20Together/arrow%20sprite/arrow_sprite.png') no-repeat;		background-size: 40px 20px;		-moz-background-size: 40px 20px;		-webkit-background-size: 40px 20px;		-o-background-size: 40px 20px;		-ms-background-size: 40px 20px;		background-position: -21px 0;		margin-top:-3px;	}	#accordion .active .arrow {		background-position: 0 0;	}/* ------------------------------ *\		  Table Styling\* ------------------------------ */	#styleOver th {		font-size: 1.3em;		text-align: center;		padding: 10px 0;		border: 1px solid #F2F2F2;	}	#styleOver td {		padding: 10px;		vertical-align: top;		border: 1px solid #F2F2F2;	}/* ------------------------------- *\		Read More Overwrite\* ------------------------------- */	.contentHTML .read-these {		background: none;		margin-right: 3px;		border: 1px solid #CCC;		border-radius: 5px;	}	.contentHTML .read-these-inner {		background: none;	}	.contentHTML .read-these h2 {		font-size: 1.2em;		background: none;		padding: 8px;		margin: 0;		font-weight: bold;	}	.contentHTML .read-these .row {		border: 1px solid #CCC;		border-bottom: none;		overflow: hidden;		padding: 8px 0;		border-right: none;		border-left: none;	}	.contentHTML .read-these .column {		width: 24.9%;		border-right: 1px solid #CCC;		float: left;		min-height: 260px;		position: relative;		padding-bottom: 40px;	}	.contentHTML .read-these .inner {		width: 100px;		margin: 11px auto;	}	.contentHTML .read-these .column .button {		position: absolute;		bottom: 5px;		left: 18%;	}	.contentHTML .read-these .last {		border-right: none;	}	.contentHTML .read-these-btm {		background: none;		clear: both;		height: 0;		margin: 0;	}	.contentHTML .read-these {		background: none;		margin-right: 0;		border: 1px solid #CCC;		border-radius: 5px;		width: 100%;	}/* ------------------------------- \*		Global Colour/Properties\* ------------------------------- */	#bookmarkingHeader hr {		height: 3px;	}	#styleOver #accordion .active .title, #bookmarkingHeader hr, .contentHTML .read-these h2 {		background-color: #fff; /* CHANGE THIS COLOUR TO THE SAME COLOUR AS THE ICON */	}</style>
+
+<style type="text/css">
+
+.mainContainer
+	{
+		width: 741px;
+		padding:0;
+		font-size: 12px;
+		/*border-top: 1px solid #555;
+		border-bottom: 1px solid #555;*/
+	}
+
+h3
+	{
+		font-family: 'Vag', Arial !important;
+		text-decoration: none;
+		margin:0;
+		padding:5px;
+		color: white !important;
+		font-size: 16px;
+	}
+
+.mainContainer h3
+	{
+		font-family: 'Vag', Arial !important;
+		text-decoration: none;
+		margin:0;
+		padding:5px;
+		color: white;
+		transition: color 0.6s;
+		-moz-transition: color 0.6s; /* Firefox 4 */
+		-webkit-transition: color 0.6s; /* Safari and Chrome */
+		-o-transition: color 0.6s; /* Opera */
+	}
+
+.mainContainer h3:hover
+	{
+		font-family: 'Vag', Arial;
+		text-decoration: none;
+		margin:0;
+		padding:5;
+		color: #f7c0d2;
+	}
+
+#col1
+	{
+		float:left;
+		border-right: 1px solid #c5c5c5;
+	}
+
+#col2
+	{
+		float:left;
+		border-right: 1px solid #c5c5c5;
+	}
+
+#col3
+	{
+		float:left;
+	}
+
+.innerContainer
+	{
+		background-color: #fff;
+		width: 246px;
+	}
+
+.mainContainer .header
+	{
+		background-color: #c75d20;
+		color:white;
+		display:block;
+	}
+
+.containerContent
+	{
+		padding: 5px;
+		display:block;
+	}
+
+#dropDown1, #dropDown2, #dropDown3, #dropDown4, #dropDown5, #dropDown6
+	{
+		display:block;
+		padding: 5px;
+		height: 80px;
+	}
+
+.readMore
+	{
+		color: #555;
+		font-size: 20px;
+	}
+
+.containerContent h3
+	{
+		color: #333 !important;
+	}
+
+</style>
+
+<div class="mainContainer">
+
+	<div id="col1" class="innerContainer">
+		<div id="container1">
+			<div class="containerContent" id="containerContent1">
+				<h3>Lip noir</h3>
+				<p>"Lip noir is our take on film noir," says Pat, global creative design director for Max Factor. Take a cue from the likes of Gucci, Viktor + Rolf and Yohji Yamamoto and channel your 1940s femme fatale. Although a full-bodied, patent pout might seem like it's only for the bravest beauty followers, it's definitely not a look to dismiss. Nail the look by blending a lighter lip shade on to the centre of your bottom lip to create the illusion of depth and dimension. Keep the rest of your look muted - let your lips do the talking.</p>
+
+				<p class="readMore">...</p>
+
+			</div>
+
+			<div id="dropDown1">
+		
+				<p><b>Get-the-look buys</b><br>
+					<a href="CMSContent/1257596">Max Factor Flipstick in Swinging Brown</a><br>
+					<a href="CMSContent/1230439">Rimmel Kate Lasting Finish Lipstick in 004</a><br>
+					<a href="CMSContent/844149">Yves Saint Laurent Rouge Volupte Lipstick in Forbidden Burgundy</a></p>
+				
+			</div>
+		
+			<div class="header" id="header1">
+				
+				<h3>Lip noir</h3>
+				
+				<div class="containerImg">
+					<img src="/wcsstore/cmsassets/Boots/Library/Icon/Content%20/BeautyNew/_2012/08_Aug/aw/1.jpg/1.jpg" alt="">
+				</div>
+			</div>
+			
+		</div>
+
+		<div id="container4">
+			<div class="containerContent" id="containerContent4">
+				
+				<br style="clear:both;" />
+				<h3>Pop art</h3>
+				<p>Girly goes graphic in this nod to kitsch, comic-book art. Sharply-winged liner in vibrant cobalt adorned models' eyes at Anna Sui in New York while, over in France, Lanvin's illustration-inspired collection led Pat McGrath to create a "pen-and-ink sketch look" with calligraphic, jet-black eyeliner, teamed with a fresh complexion. Not sure about your eyeliner skills? <a href="CMSContent/1245088">Watch our simple video tutorials</a> for all of the essential details to master the basics.</p>
+
+				<p class="readMore">...</p>
+
+			</div>
+
+			<div id="dropDown4">
+				<p><b>Get-the-look buys</b><br>
+					<a href="CMSContent/1279190">17 Smoulder Gel Eyeliner</a><br>
+					<a href="CMSContent/947292">Barry M Liquid Liner in Blue</a><br>
+					<a href="CMSContent/1276190">Clarins 3-Dot Liner</a>
+				</p>
+			</div>
+			
+			<div class="header" id="header4">
+				<h3>Pop art</h3>
+
+			</div>
+			<div class="containerImg">
+				<img src="/wcsstore/cmsassets/Boots/Library/Icon/Content%20/BeautyNew/_2012/08_Aug/aw/2.jpg/2.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<div id="col2" class="innerContainer">
+		<div id="container2">
+			<div class="header" id="header2">
+				<h3>The new age</h3>
+			</div>
+			<div class="containerImg">
+				<img src="/wcsstore/cmsassets/Boots/Library/Icon/Content%20/BeautyNew/_2012/08_Aug/aw/3.jpg/3.jpg" alt="">
+			</div>
+			<div class="containerContent" id="containerContent2">
+				<h3>The new age</h3>	
+				<p>Need something a little more pared down? Meet the look of modern minimalism: earthy hues juxtaposed with flesh-tones, creating a complexion that's both delicate and contoured. Models at Valentino, Dior and Louis Vuitton all championed the look. Pat says: "We were sculpting the face to create height and depth, adding contours and highlights around the eyes and cheeks &#45; the result was beautifully minimal." Enhancing your bone structure is key to wearing this look well; practice using matte blushers and nude eyeshadows or <a href="http://www.youtube.com/watch?v=_R-ZMvof99M&list=PLE922156663A0D7D4&index=30&feature=plpp_video">watch our quick video tutorial</a> for more tips on contouring.</p>
+
+				<p class="readMore">...</p>
+
+			</div>
+
+			<div id="dropDown2">
+			
+				<p>
+					<b>Get-the-look buys</b><br>
+					<a href="CMSContent/125268">Max Factor Miracle Touch Foundation in Soft Murano</a><br>
+					<a href="CMSContent/1127714">Pixi Nude Wardrobe Set</a><br>
+					<a href="CMSContent/2819">Benefit Hoola Face Powder</a>
+				</p>
+
+			</div>
+		</div>
+
+		<div id="container5">
+			<div class="header" id="header5">
+				<h3>Twisted up</h3>
+			</div>
+			<div class="containerImg">
+				<img src="/wcsstore/cmsassets/Boots/Library/Icon/Content%20/BeautyNew/_2012/08_Aug/aw/4.jpg/4.jpg" alt="">
+			</div>
+			<div class="containerContent" id="containerConten5">
+					<br style="clear:both;" />
+					<h3>Twisted up</h3>
+			<p>It's rare that elegance crosses paths with practicality, but this updo, as seen at Donna Karan and Valentino, is the perfect combination of the two. At Valentino the style was neat, slick and restricted, while Donna Karan's models sported a side "victory roll" in a throwback to the patriotic post-war trend. To achieve a uniform twist that stays in place, give your locks a bit of grip by using dry shampoo as a primer. Gently coil your hair and pin into place, tucking the ends in. Mist with a glossy hairspray to finish.</p>
+
+			<p class="readMore">...</p>
+
+			</div>
+
+			<div id="dropDown5">
+
+				<p><b>Get-the-look buys</b><br>
+				<a href="CMSContent/9586">John Frieda Luxurious Volume Thickening Blow-Dry Lotion</a><br>
+				<a href="CMSContent/868072">Trevor Sorbie Large Hair Pins</a><br>
+				<a href="CMSContent/43834">Charles Worthington Shine Maximum Hold Spray</a></p>
+
+			</div>
+		</div>
+	</div>	
+	<div id="col3" class="innerContainer">
+		<div id="container3">
+			
+			<div class="containerContent" id="containerContent5">
+				<h3>Undone chic</h3>
+				<p>This season sees a more relaxed approach to glamour; give your hair a break from intense heat styling with this softened, unstructured look as seen at Burberry Prorsum, Lacoste and Markus Lupfer. "We've seen a lot of simplified hair," says Bumble and bumble stylist Neil Moodie, who created the look at Burberry Prorsum, by applying Prep and Thickening Hairspray to the roots and using a diffuser to encourage natural-looking texture and movement. Keep this look in your arsenal of foolproof styles; you can't go wrong with off-duty model chic.</p>
+			
+
+				<p class="readMore">...</p>
+
+			</div>
+
+			<div id="dropDown3">
+				
+				<p>
+				<b>Get-the-look buys</b><br> 
+				<a href="CMSContent/1275107">Bumble and bumble Prep</a><br>
+				<a href="CMSContent/1276781">Bumble and bumble Thickening Hairspray</a><br>
+				<a href="CMSContent/1132878">Remington Compact Diffuser Dryer</a></p>
+
+			</div>
+
+			<div class="header" id="header3">
+				<h3>Undone chic</h3>
+			</div>
+			<div class="containerImg">
+				<img src="/wcsstore/cmsassets/Boots/Library/Icon/Content%20/BeautyNew/_2012/08_Aug/aw/5.jpg/5.jpg" alt="">
+			</div>
+			
+		</div>
+
+		<div id="container6">
+			
+			<div class="containerContent" id="containerContent6">
+					<br style="clear:both;" />
+					<h3>Dress up</h3>
+				<p>Vintage vixens will love this next bit of style inspiration, as seen at Moschino C&C and Clements Ribeiro. Created by Sam McKnight, Pantene Pro&#45;V's global stylist ambassador, the voluminous updos were inspired by the "first taste of sophistication" of youthful homecoming queens of the 1940s and 50s. His weapon of choice for creating the look? Hairspray. Blow-dry hair upwards and back before dividing into sections and misting with hairspray. Backcomb and soften the look by creating a long, side fringe.</p> 
+
+				<p class="readMore">...</p>
+
+			</div>
+
+			<div id="dropDown6">
+				
+			<p>
+				<b>Get-the-look buys</b><br>
+				<a href="CMSContent/1244666">Pantene Pro&#45;V Hairspray Extra Strong</a><br>
+				<a href="CMSContent/14632">Lee Stafford Original Dry Shampoo</a><br>
+				<a href="CMSContent/1111811">Babyliss Big Hair Spinning Brush</a>
+			</p>
+
+			</div>
+
+			<div class="header" id="header6">
+				<h3>Dress up</h3>
+			</div>
+			<div class="containerImg">
+				<img src="/wcsstore/cmsassets/Boots/Library/Icon/Content%20/BeautyNew/_2012/08_Aug/aw/6.jpg/6.jpg" alt="">
+			</div>
+		</div>
+
+		<br style="clear:both;" />
+
+	</div>
+
+	<br style="clear:both;" />
+	<br style="clear:both;" />
+
+</div>
+
+<p><b>Read more like this</b><br>
+	<a href="http://www.boots.com/en/Beauty/Beauty-Secrets/">Beauty secrets</a><br>
+	<a href="http://www.boots.com/en/Beauty/Beauty-Information-Advice/Best-Beauty-Buys/This-Months-Best-Beauty-Buys/">This month's best beauty buys</a>
+</p>
+
+<br>
+
+<p><b>Watch this video</b><br>
+	<a href="http://www.boots.com/en/Boots-beauty-videos-How-to-tutorials_1245643/#hair">Hair tutorials</a>
+</p>
+
+<br>
+
+<p><b>Related categories</b><br>
+	<a href="http://www.boots.com/en/Offers/Seasonal-Events/Autumn/">Autumn</a><br>
+	<a href="http://www.boots.com/en/Beauty/Beauty-Information-Advice/">The beauty update</a><br>
+	<a href="http://www.boots.com/en/Beauty/Premium-Beauty/">Premium beauty</a><br>
+	<a href="http://www.boots.com/en/Beauty/Make-up/">Make up</a>
+</p>
+
+<script type="text/javascript">
+
+$("#dropDown1").hide();
+$("#dropDown2").hide();
+$("#dropDown3").hide();
+$("#dropDown4").hide();
+$("#dropDown5").hide();
+$("#dropDown6").hide();
+
+$(document).ready(function() {
+	$("#container1").mouseenter(function() {
+	     $("#dropDown1").slideDown(400);
+	});
+
+	$("#container1").mouseleave(function(){
+		$("#dropDown1").slideUp(400);
+	});
+});
+
+$(document).ready(function(){
+	$("#container2").mouseenter(function(){
+		$("#dropDown2").slideDown(400);
+	});
+
+	$("#container2").mouseleave(function(){
+		$("#dropDown2").slideUp(400);
+	});
+});
+
+$(document).ready(function(){
+	$("#container3").mouseenter(function(){
+		$("#dropDown3").slideDown(400);
+	});
+
+	$("#container3").mouseleave(function(){
+		$("#dropDown3").slideUp(400);
+	});
+});
+
+$(document).ready(function(){
+	$("#container4").mouseenter(function(){
+		$("#dropDown4").slideDown(400);
+	});
+
+	$("#container4").mouseleave(function(){
+		$("#dropDown4").slideUp(400);
+	});
+});
+
+$(document).ready(function(){
+	$("#container5").mouseenter(function(){
+		$("#dropDown5").slideDown(400);
+	});
+
+	$("#container5").mouseleave(function(){
+		$("#dropDown5").slideUp(400);
+	});	
+});
+
+$(document).ready(function(){
+	$("#container6").mouseenter(function(){
+		$("#dropDown6").slideDown(400);
+	});
+
+	$("#container6").mouseleave(function(){
+		$("#dropDown6").slideUp(400);
+	});
+});
+
+</script>
